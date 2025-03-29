@@ -12,7 +12,8 @@
     "start": "next start",
     "lint": "next lint",
     "create-admin-user": "node scripts/createAdminUser.js",
-    "prepare-netlify": "node prepare-netlify-deploy.js"
+    "prepare-netlify": "node prepare-netlify-deploy.js",
+    "netlify-build": "npm install --legacy-peer-deps && npm run build"
   },
   "dependencies": {
     "@emotion/is-prop-valid": "^1.2.1",
