@@ -13,6 +13,10 @@ const nextConfig = {
       },
     ],
   },
+  experimental: {
+    serverComponentsExternalPackages: ['@supabase/supabase-js'],
+    missingSuspenseWithCSRBailout: false,
+  },
   // Ensure compatibility with Netlify deployment
   output: 'standalone',
 }

@@ -1,0 +1,11 @@
+{
+  "node_version": "16.20.2",
+  "npm_version": "8.19.4",
+  "dependencies": {
+    "next": "13.5.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "@supabase/supabase-js": "2.38.4",
+    "@netlify/plugin-nextjs": "4.41.2"
+  }
+} 
