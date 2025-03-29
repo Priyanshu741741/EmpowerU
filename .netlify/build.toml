@@ -1,0 +1,11 @@
+[build]
+  publish = ".next"
+  command = "npm run netlify-build"
+  
+[functions]
+  node_bundler = "esbuild"
+
+[build.environment]
+  GO_VERSION = "1.19"
+  NODE_VERSION = "18"
+  NPM_FLAGS = "--legacy-peer-deps" 
